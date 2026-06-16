@@ -1,5 +1,5 @@
 {
-    "workbench.iconTheme": "vs-nomo-dark",
+    "workbench.iconTheme": "helium-icon-theme",
     "workbench.colorCustomizations": {
         "[Vira*]": {
             "statusBar.debuggingBackground": "#80CBC433",
@@ -78,12 +78,44 @@
   "json.schemas": [],
   "editor.stickyScroll.enabled": false,
   "editor.minimap.enabled": false,
-  "clangd.path": "/home/kandreys/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/21.1.8/clangd_21.1.8/bin/clangd",
+  "clangd.path": "/home/kandreys/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/22.1.0/clangd_22.1.0/bin/clangd",
   "C_Cpp.intelliSenseEngine": "disabled",
   "terminal.integrated.stickyScroll.enabled": false,
-  "terminal.integrated.fontFamily": "MesloLGS NF, monospace",
-  "workbench.colorTheme": "Bearded Theme Vivid Black",
+"terminal.integrated.fontFamily": "MesloLGS NF, monospace",
   "go.toolsManagement.autoUpdate": true,
   "workbench.settings.applyToAllProfiles": [
-  ]
+
+
+  ],
+  "redhat.telemetry.enabled": true,
+  "git.openRepositoryInParentFolders": "never",
+
+    "latex-workshop.latex.tools": [
+    {
+        "name": "xelatex",
+        "command": "xelatex",
+        "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-shell-escape",
+        "%DOC%"
+        ]
+    }
+    ],
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "XeLaTeX",
+            "tools": ["xelatex"]
+        }
+    ],
+    "latex-workshop.view.pdf.viewer": "tab",
+    "makefile.configureOnOpen": true,
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "workbench.colorTheme": "Bearded Theme Anthracite"
 }
